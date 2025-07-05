@@ -12,7 +12,7 @@ st.set_page_config(page_title="Dự đoán giá đã giảm", layout="wide")
 st.title("📉 Dự đoán giá giảm sản phẩm Amazon (Linear Regression)")
 
 # Load data
-url = "https://raw.githubusercontent.com/nguyenvudev20/daidaidiha/refs/heads/main/amazon.csv"
+url = "https://raw.githubusercontent.com/nguyenvudev20/25251325/refs/heads/main/amazon.csv"
 df = pd.read_csv(url)
 
 # Clean data
